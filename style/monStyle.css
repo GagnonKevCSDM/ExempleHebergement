@@ -1,0 +1,54 @@
+html,body {
+    height: 100%;
+}
+nav {
+    justify-content: flex-start; 
+    height: 60px; 
+    background: #24788d81;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url("../images/logoEmica.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right;
+}
+nav.ul, li {
+    display: inline; 
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: large;
+    
+}
+
+li.PageActuelle {
+    color:brown;
+    font-weight:bold; 
+}
+
+div.contenu { 
+    background-color: rgb(71, 134, 110);
+    padding: 10px;
+    height: 100%;
+}
+
+div.divTest1 {
+    background: linear-gradient(45deg,darkorange 10%,bisque);
+    box-shadow: 10px 10px 10px rgb(104, 82, 56) ;
+    height: 90px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color:blue;
+}
+
+div.divTest1:hover {
+    transform : rotate(20deg);
+    background: linear-gradient(45deg,rgb(0, 140, 255) 10%,bisque);
+}
+footer {
+    background-color: chartreuse;
+    padding: 10px;
+    text-align: center;
+}
